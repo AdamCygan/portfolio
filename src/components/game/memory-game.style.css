@@ -1,0 +1,23 @@
+.memory-game__grid {
+  --size: 3.75rem;
+
+  display: grid;
+  gap: 0.5rem;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.memory-game__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  align-items: center;
+}
+
+.memory-game__completion-text {
+  color: #555;
+  font-weight: 600;
+  font-size: 1rem;
+}
